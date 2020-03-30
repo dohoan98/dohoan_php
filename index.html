@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thông tin học viên</title>
+	<style type="text/css">
+		*
+		{
+			margin: auto;
+		}
+		#img2
+		{
+			margin-left: 220px;
+		}
+		h2
+		{
+			margin-top: 30px;
+			margin-left: 300px;
+			color: blue;
+		}
+		#container
+		{
+			margin-top: 30px;
+		}
+		#tb
+		{
+			margin-top: 20px;
+			border-collapse: collapse;
+			width: 800px;
+			height: auto;
+			text-align: center;
+		}
+		#tb2
+		{
+			margin-top: 20px;
+			width: 800px;
+			height: 200px;
+			font-size: 20px;
+
+		}
+	</style>
+</head>
+<body>
+
+	<div id="container">
+		<a href="#dk">Đăng kí</a>
+		<div id="img2">
+			<img src="it2.PNG">
+		</div>
+		<div id="menu">
+			<
+		</div>
+		<h2>Thông tin học viên</h2>
+		<table id="tb" border="1">
+
+			<tr>
+				<th>STT</th>
+				<th>Hình ảnh</th>
+				<th>Họ tên</th>
+				<th>SDT</th>
+				<th>Email</th>
+				<th>Môn học</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td><img src="3.jpg" height="100px" width="100px"></td>
+				<td>Admin</td>
+				<td>011111111</td>
+				<td>a@gmail.com</td>
+				<td>LT web</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td><img src="3.jpg" height="100px" width="100px"></td>
+				<td>Đỗ Hoàn</td>
+				<td>09999999</td>
+				<td>DoHoan@gmail.com</td>
+				<td>LT web</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td><img src="4.jpg" height="100px" width="100px"></td>
+				<td>Đạtt</td>
+				<td>01222222</td>
+				<td>b@gmail.com</td>
+				<td>LT web</td>
+			</tr>
+		</table>
+		<h2>Đăng ký khóa học</h2>
+		<div id="dk">
+			<form action="" method="">
+				<table id="tb2">
+					<tr>
+						<td>Họ tên</td>
+						<td><input type="text" placeholder="nhập họ tên" name="hoten" required=""></td>
+					</tr>
+					<tr>
+						<td>Số ĐT</td>
+						<td><input type="number" placeholder="nhập số điện thoại" name="sdt" required=""></td>
+					</tr>
+					<tr>
+						<td>Địa chỉ</td>
+						<td><input type="text" name="dc" placeholder="nhập địa chỉ" required=""></td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td><input type="email" id="email" placeholder="tên email + @gmail.com" size="30" required=""></td>
+					</tr>
+					<tr>
+						<td>Giới tính</td>
+						<td><input type="radio" name="gt" value="Nam">Nam
+							<input type="radio" name="gt" value="Nữ">Nữ</td>
+					</tr>
+					<tr>
+						<td>Môn học</td>
+						<td><select name="select">
+							<option value="Lập trình PHP" selected="">Lập trình PHP</option>
+							<option value="Thiết kế đồ họa">Thiết kế đồ họa</option>
+							<option value="Xử lý video">Xử lý video</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td><input type="submit" name="sm" value="Đăng ký"></td>
+						<td><input type="reset" name="" value="Reset" /></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
